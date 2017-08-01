@@ -1,0 +1,6 @@
+This taks is easy if you have a good sense of observation !
+Your mission is to know how this encryption work then find the word wich her md5 give the picture indicated on the webpage
+your flag is: Bugs_Bunny{the_word_you_found}
+
+
+By: Mabrouki Fakhri (Mr_GOoD)

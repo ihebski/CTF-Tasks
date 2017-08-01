@@ -1,0 +1,7 @@
+Le joueur doit analyser le texte crypté et déterminer le texte originale.
+Vous allez récupérer un flag, pour valider votre mission mettez le flag comme suit: 
+Bugs_Bunny{le_flag_récupéré}
+Indication : Le titre de la page.
+
+
+By: Mabrouki Fakhri (Mr_GOoD)

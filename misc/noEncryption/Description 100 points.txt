@@ -1,0 +1,5 @@
+In this challenge we choose the smartest people !
+To resolve this, you  need to be smart and you have to know what is an ASCII code. Easy ! no ?
+Your mission is to understand how this encryption work, then decrypt this to know the flag : 27965701371435207 
+
+By: Mabrouki Fakhri (Mr_GOoD)

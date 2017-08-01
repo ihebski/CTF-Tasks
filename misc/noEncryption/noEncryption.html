@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<title>'de'Crypt That</title>
+
+	
+	</head>
+	<body>
+		<h1 class="text-center">Hi Hacker !</h1>
+
+		<p>In this challenge we choose the smartest people !</p>
+		<p>To resolve this, you will need to be smart and you have to know what is an ASCII code. Easy ! no ?</p>
+		<p>Your mission is to understand how this encryption work, then decrypt this to know the code : 27965701371435207 </p>
+		<p>your flag is: Bugs_Bunny{the_code}</p>
+		<p>Don't forget ! observation is the key of success !</p>
+		<p>Stars make the view better. Hackers used Stars to know their way.</p>
+		<p>Rmember this : one after one. Or maybe : one by one. | As you like ! you will need this note...</p>
+		<p>Let the game start ! <button id="go">Press Meh :)</button></p>
+		<div style="display: none;"> <p>Why looking here ? the script is at the end of the body tag :)</p></div>
+		<br><br>
+		<div id="resultarea"></div>
+		<br><br>
+		<div id="advices"></div>
+	</body>
+	
+	<script type="text/javascript">
+	var i=0;
+	$('#go').click(function(event) {
+		i++;
+		var toEncrypt = prompt("String to Crypt: ");
+		 	
+		 	$.ajax({
+				  type: "GET",
+				  url: "noEncryption.php?toEncrypt="+toEncrypt,
+				  cache: false,
+				  success: function(data){
+				     $("#resultarea").html("Your String : "+toEncrypt+"<br>Encryption: "+data);
+				  }
+				});
+		 	if (i==10) { $('#advices').html("<p>Okay, one more subscript: I hate luck ! because luck is not calculable, this shit is based on random things, you need to observe lengths to determinate the horizon...</p> <p>I love internet too but this time it's useless... </p> <p> Now read the notes again... and take notes ! wtf ?</p>"); i=0;}
+	});
+		
+				
+	</script>
+</html>

