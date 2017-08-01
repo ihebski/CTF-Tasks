@@ -1,7 +1,8 @@
-TASK NAME : ETALFED EMIRC (INVERSE OF DEFLATE CRIME :P )
-
-After learn about compression technique , i start coding my first server which help me to learn more about crypot AES and compression
+After learn about compression technique , i start coding my first server which help me to learn more about AES and compression
 
 Send me Your name i will put some secret for you , don't worry its just cookies :D
+task : http://34.253.165.46:5050/?user=test
 
-flag format : Bugs_Bunny{}
+Bugs_Bunny{flag}
+
+Author: TnMch
