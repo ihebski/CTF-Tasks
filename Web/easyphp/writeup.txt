@@ -1,0 +1,5 @@
+Once you’ve figured the backup file is index.php.bak, things are easier:
+
+You can use the fact that register_globals really is enabled and get the password simply by going to this url http://site.com/index.php?_SESSION[logged]=1
+
+
